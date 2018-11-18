@@ -1,0 +1,137 @@
+{\rtf1\ansi \deff1{\fonttbl{\f1\fmodern\fprq1\fcharset0 宋体;}}{\colortbl;\red09\green03\blue00;\red165\green162\blue162;\red01\green162\blue82;\red232\green187\blue208;\red92\green88\blue85;\red92\green88\blue85;\red181\green228\blue244;\red205\green171\blue83;\red181\green228\blue244;\red128\green125\blue124;\red165\green162\blue162;\red232\green187\blue208;\red161\green106\blue148;\red01\green160\blue228;\red219\green45\blue32;\red253\green237\blue02;}
+\paperw11905\paperh16837\margl1134\margr1134\margt1134\margb1134\sectd\plain\f1\fs20
+\pard \cbpat1{{\cf2{}}{\cf10{ {1} }}{\cf2{\u65279?}}{\cf8{#include<iostream>}}}\par\pard
+\cbpat1{{\cf10{ {2} }}{\cf2{}}{\cf13{\b using namespace\b0 }} {\cf2{std}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{ {3} }}{\cf2{}}{\cf8{#include}}{\cf9{"{4}_{6}.h"}}{\cf8{}}}\par\pard
+\cbpat1{{\cf10{ {4} }}{\cf2{}}}\par\pard
+\cbpat1{{\cf10{ {5} }}{\cf2{}}{\cf14{\b const int\b0 }} {\cf2{N}} {\cf11{=}} {\cf2{}}{\cf4{{1}{0}}}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{ {6} }}{\cf2{}}}\par\pard
+\cbpat1{{\cf10{ {7} }}{\cf2{}}{\cf14{\b void\b0 }} {\cf2{}}{\cf16{\b menu\b0 }}{\cf2{}}{\cf11{();}}}\par\pard
+\cbpat1{{\cf10{ {8} }}{\cf2{}}{\cf14{\b void\b0 }} {\cf2{}}{\cf16{\b OutputStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{}}{\cf14{\b const\b0 }} {\cf2{Student}} {\cf11{*}}{\cf2{arrayy}}{\cf11{);}} {\cf2{}}{\cf5{\i //\u25351?\u38024?\u24418?\u24335?\u21442?\u25968?\u21069?\u21152?const\u20445?\u25252?\i0 }}}\par\pard
+\cbpat1{{\cf10{ {9} }}{\cf2{}}{\cf14{\b void\b0 }} {\cf2{}}{\cf16{\b InputStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{Student}} {\cf11{*}}{\cf2{array}}{\cf11{);}}}\par\pard
+\cbpat1{{\cf10{{1}{0} }}{\cf2{}}{\cf14{\b int\b0 }} {\cf2{}}{\cf16{\b SearchStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{}}{\cf14{\b const\b0 }} {\cf2{Student}} {\cf11{*}}{\cf2{array}}{\cf11{,}} {\cf2{}}{\cf14{\b char\b0 }} {\cf2{}}{\cf11{*}}{\cf2{na}}{\cf11{);}}  {\cf2{}}{\cf5{\i //\u25351?\u38024?\u24418?\u24335?\u21442?\u25968?\u21069?\u21152?const\u20445?\u25252?\i0 }}}\par\pard
+\cbpat1{{\cf10{{1}{1} }}{\cf2{}}{\cf14{\b bool\b0 }} {\cf2{}}{\cf16{\b InsertStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{Student}} {\cf11{*}}{\cf2{array}}{\cf11{);}}}\par\pard
+\cbpat1{{\cf10{{1}{2} }}{\cf2{}}{\cf14{\b bool\b0 }} {\cf2{}}{\cf16{\b DeleteStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{Student}} {\cf11{*}}{\cf2{array}}{\cf11{,}} {\cf2{}}{\cf14{\b char\b0 }} {\cf2{}}{\cf11{*}}{\cf2{na}}{\cf11{);}}}\par\pard
+\cbpat1{{\cf10{{1}{3} }}{\cf2{}}}\par\pard
+\cbpat1{{\cf10{{1}{4} }}{\cf2{}}{\cf14{\b int\b0 }} {\cf2{}}{\cf16{\b main\b0 }}{\cf2{}}{\cf11{()}}}\par\pard
+\cbpat1{{\cf10{{1}{5} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{1}{6} }}{\cf2{	Student array}}{\cf11{[}}{\cf2{N}}{\cf11{];}}}\par\pard
+\cbpat1{{\cf10{{1}{7} }}{\cf2{}}	{\cf14{\b int\b0 }} {\cf2{choice}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{1}{8} }}{\cf2{}}	{\cf14{\b char\b0 }} {\cf2{na}}{\cf11{[}}{\cf2{}}{\cf4{{2}{0}}}{\cf2{}}{\cf11{];}}}\par\pard
+\cbpat1{{\cf10{{1}{9} }}{\cf2{}}	{\cf13{\b do\b0 }}}\par\pard
+\cbpat1{{\cf10{{2}{0} }}{\cf2{}}	{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{2}{1} }}{\cf2{}}		{\cf16{\b menu\b0 }}{\cf2{}}{\cf11{();}}}\par\pard
+\cbpat1{{\cf10{{2}{2} }}{\cf2{		cout}} {\cf11{<<}} {\cf2{}}{\cf3{"Please input your choice:"}}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{2}{3} }}{\cf2{		cin}} {\cf11{>>}} {\cf2{choice}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{2}{4} }}{\cf2{}}		{\cf13{\b if\b0 }} {\cf2{}}{\cf11{(}}{\cf2{choice}} {\cf11{>=}} {\cf2{}}{\cf4{{0}}} {\cf2{}}{\cf11{&&}} {\cf2{choice}} {\cf11{<=}} {\cf2{}}{\cf4{{5}}}{\cf2{}}{\cf11{)}}}\par\pard
+\cbpat1{{\cf10{{2}{5} }}{\cf2{}}			{\cf13{\b switch\b0 }} {\cf2{}}{\cf11{(}}{\cf2{choice}}{\cf11{)}}}\par\pard
+\cbpat1{{\cf10{{2}{6} }}{\cf2{}}			{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{2}{7} }}{\cf2{}}			{\cf13{\b case\b0 }} {\cf2{}}{\cf4{{1}}}{\cf2{}}{\cf11{:}}{\cf2{}}{\cf16{\b InputStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{array}}{\cf11{);}} {\cf2{}}{\cf13{\b break\b0 }}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{2}{8} }}{\cf2{}}			{\cf13{\b case\b0 }} {\cf2{}}{\cf4{{2}}}{\cf2{}}{\cf11{:}}}\par\pard
+\cbpat1{{\cf10{{2}{9} }}{\cf2{				cout}} {\cf11{<<}} {\cf2{}}{\cf3{"Input the name searched:"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{3}{0} }}{\cf2{				cin}} {\cf11{>>}} {\cf2{na}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{3}{1} }}{\cf2{}}				{\cf14{\b int\b0 }} {\cf2{i}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{3}{2} }}{\cf2{				i}} {\cf11{=}} {\cf2{}}{\cf16{\b SearchStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{array}}{\cf11{,}} {\cf2{na}}{\cf11{);}}}\par\pard
+\cbpat1{{\cf10{{3}{3} }}{\cf2{}}				{\cf13{\b if\b0 }} {\cf2{}}{\cf11{(}}{\cf2{i}} {\cf11{==}} {\cf2{N}}{\cf11{)}}}\par\pard
+\cbpat1{{\cf10{{3}{4} }}{\cf2{					cout}} {\cf11{<<}} {\cf2{}}{\cf3{"\u26597?\u26080?\u27492?\u20154?\u65281?}}{\cf7{\\n}}{\cf3{"}}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{3}{5} }}{\cf2{}}				{\cf13{\b else\b0 }}}\par\pard
+\cbpat1{{\cf10{{3}{6} }}{\cf2{					array}}{\cf11{[}}{\cf2{i}}{\cf11{].}}{\cf2{}}{\cf16{\b Display\b0 }}{\cf2{}}{\cf11{();}}}\par\pard
+\cbpat1{{\cf10{{3}{7} }}{\cf2{}}				{\cf13{\b break\b0 }}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{3}{8} }}{\cf2{}}			{\cf13{\b case\b0 }} {\cf2{}}{\cf4{{3}}}{\cf2{}}{\cf11{:}}{\cf2{}}{\cf16{\b OutputStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{array}}{\cf11{);}} {\cf2{}}{\cf13{\b break\b0 }}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{3}{9} }}{\cf2{}}			{\cf13{\b case\b0 }} {\cf2{}}{\cf4{{4}}}{\cf2{}}{\cf11{:}}}\par\pard
+\cbpat1{{\cf10{{4}{0} }}{\cf2{}}				{\cf13{\b if\b0 }} {\cf2{}}{\cf11{(}}{\cf2{}}{\cf16{\b InsertStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{array}}{\cf11{))}}}\par\pard
+\cbpat1{{\cf10{{4}{1} }}{\cf2{					cout}} {\cf11{<<}} {\cf2{}}{\cf3{"\u25104?\u21151?\u25554?\u20837?\u19968?\u26465?\u35760?\u24405?}}{\cf7{\\n}}{\cf3{"}}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{4}{2} }}{\cf2{}}				{\cf13{\b else\b0 }}}\par\pard
+\cbpat1{{\cf10{{4}{3} }}{\cf2{					cout}} {\cf11{<<}} {\cf2{}}{\cf3{"\u25554?\u20837?\u22833?\u36133?\u65281?}}{\cf7{\\n}}{\cf3{"}}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{4}{4} }}{\cf2{}}				{\cf13{\b break\b0 }}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{4}{5} }}{\cf2{}}			{\cf13{\b case\b0 }} {\cf2{}}{\cf4{{5}}}{\cf2{}}{\cf11{:}}}\par\pard
+\cbpat1{{\cf10{{4}{6} }}{\cf2{				cout}} {\cf11{<<}} {\cf2{}}{\cf3{"Input the name deleted:"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{4}{7} }}{\cf2{				cin}} {\cf11{>>}} {\cf2{na}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{4}{8} }}{\cf2{}}				{\cf13{\b if\b0 }} {\cf2{}}{\cf11{(}}{\cf2{}}{\cf16{\b DeleteStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{array}}{\cf11{,}} {\cf2{na}}{\cf11{))}}}\par\pard
+\cbpat1{{\cf10{{4}{9} }}{\cf2{					cout}} {\cf11{<<}} {\cf2{}}{\cf3{"\u25104?\u21151?\u21024?\u38500?\u19968?\u26465?\u35760?\u24405?}}{\cf7{\\n}}{\cf3{"}}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{5}{0} }}{\cf2{}}				{\cf13{\b else\b0 }}}\par\pard
+\cbpat1{{\cf10{{5}{1} }}{\cf2{					cout}} {\cf11{<<}} {\cf2{}}{\cf3{"\u21024?\u38500?\u22833?\u36133?\u65281?}}{\cf7{\\n}}{\cf3{"}}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{5}{2} }}{\cf2{}}				{\cf13{\b break\b0 }}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{5}{3} }}{\cf2{}}			{\cf13{\b default\b0 }}{\cf2{}}{\cf11{:}}{\cf2{}}{\cf13{\b break\b0 }}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{5}{4} }}{\cf2{}}			{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{5}{5} }}{\cf2{}}	{\cf11{\}}} {\cf2{}}{\cf13{\b while\b0 }} {\cf2{}}{\cf11{(}}{\cf2{choice}}{\cf11{);}}}\par\pard
+\cbpat1{{\cf10{{5}{6} }}{\cf2{}}	{\cf16{\b system\b0 }}{\cf2{}}{\cf11{(}}{\cf2{}}{\cf3{"pause"}}{\cf2{}}{\cf11{);}}}\par\pard
+\cbpat1{{\cf10{{5}{7} }}{\cf2{}}	{\cf13{\b return\b0 }} {\cf2{}}{\cf4{{0}}}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{5}{8} }}{\cf2{}}{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{5}{9} }}{\cf2{}}}\par\pard
+\cbpat1{{\cf10{{6}{0} }}{\cf2{}}{\cf14{\b void\b0 }} {\cf2{}}{\cf16{\b menu\b0 }}{\cf2{}}{\cf11{()}}}\par\pard
+\cbpat1{{\cf10{{6}{1} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{6}{2} }}{\cf2{	cout}} {\cf11{<<}} {\cf2{}}{\cf3{"*******************{1}.\u24405?\u20837?\u20449?\u24687?*********************"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{6}{3} }}{\cf2{	cout}} {\cf11{<<}} {\cf2{}}{\cf3{"*******************{2}.\u26597?\u35810?\u20449?\u24687?*********************"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{6}{4} }}{\cf2{	cout}} {\cf11{<<}} {\cf2{}}{\cf3{"*******************{3}.\u27983?\u35272?\u20449?\u24687?*********************"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{6}{5} }}{\cf2{	cout}} {\cf11{<<}} {\cf2{}}{\cf3{"*******************{4}.\u25554?\u20837?\u20449?\u24687?*********************"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{6}{6} }}{\cf2{	cout}} {\cf11{<<}} {\cf2{}}{\cf3{"*******************{5}.\u21024?\u38500?\u20449?\u24687?*********************"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{6}{7} }}{\cf2{	cout}} {\cf11{<<}} {\cf2{}}{\cf3{"*******************{0}.\u36864?    \u20986?*********************"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{6}{8} }}{\cf2{}}{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{6}{9} }}{\cf2{}}}\par\pard
+\cbpat1{{\cf10{{7}{0} }}{\cf2{}}{\cf14{\b void\b0 }} {\cf2{}}{\cf16{\b OutputStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{}}{\cf14{\b const\b0 }} {\cf2{Student}} {\cf11{*}}{\cf2{array}}{\cf11{)}}}\par\pard
+\cbpat1{{\cf10{{7}{1} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{7}{2} }}{\cf2{	cout}} {\cf11{<<}} {\cf2{}}{\cf3{"\u23398?\u29983?\u24635?\u20154?\u25968?="}}{\cf2{}} {\cf11{<<}} {\cf2{}}{\cf15{\b Student\b0 }}{\cf2{}}{\cf11{::}}{\cf2{}}{\cf16{\b GetCount\b0 }}{\cf2{}}{\cf11{() <<}} {\cf2{endl}}{\cf11{;}}   {\cf2{}}{\cf5{\i //\u27492?\u21477?\u26377?\u20462?\u25913?\i0 }}}\par\pard
+\cbpat1{{\cf10{{7}{3} }}{\cf2{}}	{\cf13{\b for\b0 }} {\cf2{}}{\cf11{(}}{\cf2{}}{\cf14{\b int\b0 }} {\cf2{i}} {\cf11{=}} {\cf2{}}{\cf4{{0}}}{\cf2{}}{\cf11{;}} {\cf2{i}} {\cf11{<}} {\cf2{N}}{\cf11{;}} {\cf2{i}}{\cf11{++)}}  {\cf2{}}{\cf5{\i //\u27492?\u21477?\u26377?\u20462?\u25913?\u65292?\u24490?\u29615?\u25511?\u21046?\u26465?\u20214?\u21450?\u36755?\u20986?\u26465?\u20214?\i0 }}}\par\pard
+\cbpat1{{\cf10{{7}{4} }}{\cf2{}}		{\cf13{\b if\b0 }} {\cf2{}}{\cf11{(}}{\cf2{array}}{\cf11{[}}{\cf2{i}}{\cf11{].}}{\cf2{}}{\cf16{\b GetAge\b0 }}{\cf2{}}{\cf11{())}}}\par\pard
+\cbpat1{{\cf10{{7}{5} }}{\cf2{			array}}{\cf11{[}}{\cf2{i}}{\cf11{].}}{\cf2{}}{\cf16{\b Display\b0 }}{\cf2{}}{\cf11{();}}}\par\pard
+\cbpat1{{\cf10{{7}{6} }}{\cf2{}}{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{7}{7} }}{\cf2{}}}\par\pard
+\cbpat1{{\cf10{{7}{8} }}{\cf2{}}{\cf14{\b int\b0 }} {\cf2{}}{\cf16{\b SearchStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{}}{\cf14{\b const\b0 }} {\cf2{Student}} {\cf11{*}}{\cf2{array}}{\cf11{,}} {\cf2{}}{\cf14{\b char\b0 }} {\cf2{}}{\cf11{*}}{\cf2{na}}{\cf11{)}}}\par\pard
+\cbpat1{{\cf10{{7}{9} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{8}{0} }}{\cf2{}}	{\cf14{\b int\b0 }} {\cf2{i}}{\cf11{,}} {\cf2{j}} {\cf11{=}} {\cf2{N}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{8}{1} }}{\cf2{}}	{\cf13{\b for\b0 }} {\cf2{}}{\cf11{(}}{\cf2{i}} {\cf11{=}} {\cf2{}}{\cf4{{0}}}{\cf2{}}{\cf11{;}} {\cf2{i}} {\cf11{<}} {\cf2{N}}{\cf11{;}} {\cf2{i}}{\cf11{++)}}  {\cf2{}}{\cf5{\i //\u27492?\u21477?\u26377?\u20462?\u25913?\u65292?\u24490?\u29615?\u25511?\u21046?\u26465?\u20214?\i0 }}}\par\pard
+\cbpat1{{\cf10{{8}{2} }}{\cf2{}}		{\cf13{\b if\b0 }} {\cf2{}}{\cf11{(}}{\cf2{array}}{\cf11{[}}{\cf2{i}}{\cf11{].}}{\cf2{}}{\cf16{\b GetAge\b0 }}{\cf2{}}{\cf11{())}}}\par\pard
+\cbpat1{{\cf10{{8}{3} }}{\cf2{}}			{\cf13{\b if\b0 }} {\cf2{}}{\cf11{(}}{\cf2{}}{\cf16{\b strcmp\b0 }}{\cf2{}}{\cf11{(}}{\cf2{array}}{\cf11{[}}{\cf2{i}}{\cf11{].}}{\cf2{}}{\cf16{\b GetName\b0 }}{\cf2{}}{\cf11{(),}} {\cf2{na}}{\cf11{) ==}} {\cf2{}}{\cf4{{0}}}{\cf2{}}{\cf11{)}}}\par\pard
+\cbpat1{{\cf10{{8}{4} }}{\cf2{}}			{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{8}{5} }}{\cf2{				j}} {\cf11{=}} {\cf2{i}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{8}{6} }}{\cf2{}}				{\cf13{\b break\b0 }}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{8}{7} }}{\cf2{}}			{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{8}{8} }}{\cf2{}}	{\cf13{\b return\b0 }} {\cf2{j}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{8}{9} }}{\cf2{}}{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{9}{0} }}{\cf2{}}}\par\pard
+\cbpat1{{\cf10{{9}{1} }}{\cf2{}}{\cf14{\b void\b0 }} {\cf2{}}{\cf16{\b InputStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{Student}} {\cf11{*}}{\cf2{array}}{\cf11{)}}}\par\pard
+\cbpat1{{\cf10{{9}{2} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{9}{3} }}{\cf2{}}	{\cf14{\b char\b0 }} {\cf2{ch}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{9}{4} }}{\cf2{}}	{\cf14{\b int\b0 }} {\cf2{i}} {\cf11{=}} {\cf2{}}{\cf4{{0}}}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{9}{5} }}{\cf2{}}	{\cf13{\b do\b0 }}}\par\pard
+\cbpat1{{\cf10{{9}{6} }}{\cf2{}}	{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{9}{7} }}{\cf2{}}		{\cf13{\b if\b0 }} {\cf2{}}{\cf11{(}}{\cf2{}}{\cf15{\b Student\b0 }}{\cf2{}}{\cf11{::}}{\cf2{}}{\cf16{\b GetCount\b0 }}{\cf2{}}{\cf11{() ==}} {\cf2{N}}{\cf11{)}}}\par\pard
+\cbpat1{{\cf10{{9}{8} }}{\cf2{			cout}} {\cf11{<<}} {\cf2{}}{\cf3{"\u20154?\u25968?\u24050?\u28385?\u65292?\u26080?\u27861?\u32487?\u32493?\u23547?\u20154?\u65281?"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{9}{9} }}{\cf2{}}		{\cf13{\b if\b0 }} {\cf2{}}{\cf11{(!}}{\cf2{array}}{\cf11{[}}{\cf2{i}}{\cf11{].}}{\cf2{}}{\cf16{\b GetAge\b0 }}{\cf2{}}{\cf11{())}}}\par\pard
+\cbpat1{{\cf10{{1}{0}{0} }}{\cf2{			array}}{\cf11{[}}{\cf2{i}}{\cf11{++].}}{\cf2{}}{\cf16{\b Input\b0 }}{\cf2{}}{\cf11{();}}}\par\pard
+\cbpat1{{\cf10{{1}{0}{1} }}{\cf2{		cout}} {\cf11{<<}} {\cf2{}}{\cf3{"\u32487?\u32493?\u36755?\u20837?\u21527?\u65311?(Y or N)"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{1}{0}{2} }}{\cf2{		cin}} {\cf11{>>}} {\cf2{ch}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{1}{0}{3} }}{\cf2{}}	{\cf11{\}}} {\cf2{}}{\cf13{\b while\b0 }} {\cf2{}}{\cf11{(}}{\cf2{ch}} {\cf11{==}} {\cf2{}}{\cf3{'Y'}}{\cf2{}}{\cf11{);}}}\par\pard
+\cbpat1{{\cf10{{1}{0}{4} }}{\cf2{}}{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{1}{0}{5} }}{\cf2{}}}\par\pard
+\cbpat1{{\cf10{{1}{0}{6} }}{\cf2{}}{\cf14{\b bool\b0 }} {\cf2{}}{\cf16{\b InsertStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{Student}} {\cf11{*}}{\cf2{array}}{\cf11{)}}}\par\pard
+\cbpat1{{\cf10{{1}{0}{7} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{1}{0}{8} }}{\cf2{}}	{\cf13{\b if\b0 }} {\cf2{}}{\cf11{(}}{\cf2{}}{\cf15{\b Student\b0 }}{\cf2{}}{\cf11{::}}{\cf2{}}{\cf16{\b GetCount\b0 }}{\cf2{}}{\cf11{() ==}} {\cf2{N}}{\cf11{)}}  {\cf2{}}{\cf5{\i //\u21028?\u26029?\u26159?\u21542?\u26377?\u20301?\u32622?\u25554?\u20837?\u35760?\u24405?\i0 }}}\par\pard
+\cbpat1{{\cf10{{1}{0}{9} }}{\cf2{}}	{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{1}{1}{0} }}{\cf2{		cout}} {\cf11{<<}} {\cf2{}}{\cf3{"\u20154?\u25968?\u24050?\u28385?\u65292?\u26080?\u27861?\u25554?\u20837?\u35760?\u24405?\u65281?"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{1}{1}{1} }}{\cf2{}}		{\cf13{\b return false\b0 }}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{1}{1}{2} }}{\cf2{}}	{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{1}{1}{3} }}{\cf2{}}	{\cf13{\b for\b0 }} {\cf2{}}{\cf11{(}}{\cf2{}}{\cf14{\b int\b0 }} {\cf2{i}} {\cf11{=}} {\cf2{}}{\cf4{{0}}}{\cf2{}}{\cf11{;}} {\cf2{array}}{\cf11{[}}{\cf2{i}}{\cf11{].}}{\cf2{}}{\cf16{\b GetAge\b0 }}{\cf2{}}{\cf11{();}} {\cf2{i}}{\cf11{++)}}  {\cf2{}}{\cf5{\i //\u25214?\u31532?\u19968?\u20010?\u24180?\u40836?\u20026?{0}\u30340?\u31354?\u20301?\u32622?\i0 }}}\par\pard
+\cbpat1{{\cf10{{1}{1}{4} }}{\cf2{		array}}{\cf11{[}}{\cf2{i}}{\cf11{].}}{\cf2{}}{\cf16{\b Insert\b0 }}{\cf2{}}{\cf11{();}}}\par\pard
+\cbpat1{{\cf10{{1}{1}{5} }}{\cf2{}}	{\cf13{\b return true\b0 }}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{1}{1}{6} }}{\cf2{}}{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{1}{1}{7} }}{\cf2{}}}\par\pard
+\cbpat1{{\cf10{{1}{1}{8} }}{\cf2{}}{\cf14{\b bool\b0 }} {\cf2{}}{\cf16{\b DeleteStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{Student}} {\cf11{*}}{\cf2{array}}{\cf11{,}} {\cf2{}}{\cf14{\b char\b0 }} {\cf2{}}{\cf11{*}}{\cf2{na}}{\cf11{)}}}\par\pard
+\cbpat1{{\cf10{{1}{1}{9} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{1}{2}{0} }}{\cf2{}}	{\cf13{\b if\b0 }} {\cf2{}}{\cf11{(}}{\cf2{}}{\cf15{\b Student\b0 }}{\cf2{}}{\cf11{::}}{\cf2{}}{\cf16{\b GetCount\b0 }}{\cf2{}}{\cf11{() ==}} {\cf2{}}{\cf4{{0}}}{\cf2{}}{\cf11{)}}}\par\pard
+\cbpat1{{\cf10{{1}{2}{1} }}{\cf2{}}	{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{1}{2}{2} }}{\cf2{		cout}} {\cf11{<<}} {\cf2{}}{\cf3{"\u27809?\u26377?\u35760?\u24405?\u65292?\u26080?\u27861?\u21024?\u38500?\u65281?"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{1}{2}{3} }}{\cf2{}}		{\cf13{\b return false\b0 }}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{1}{2}{4} }}{\cf2{}}	{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{1}{2}{5} }}{\cf2{}}	{\cf14{\b int\b0 }} {\cf2{i}} {\cf11{=}} {\cf2{}}{\cf16{\b SearchStu\b0 }}{\cf2{}}{\cf11{(}}{\cf2{array}}{\cf11{,}} {\cf2{na}}{\cf11{);}}}\par\pard
+\cbpat1{{\cf10{{1}{2}{6} }}{\cf2{}}	{\cf13{\b if\b0 }} {\cf2{}}{\cf11{(}}{\cf2{i}} {\cf11{==}} {\cf2{N}}{\cf11{)}}}\par\pard
+\cbpat1{{\cf10{{1}{2}{7} }}{\cf2{}}	{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{1}{2}{8} }}{\cf2{		cout}} {\cf11{<<}} {\cf2{}}{\cf3{"\u26597?\u26080?\u27492?\u20154?\u65292?\u26080?\u27861?\u21024?\u38500?\u65281?}}{\cf7{\\n}}{\cf3{"}}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{1}{2}{9} }}{\cf2{}}		{\cf13{\b return false\b0 }}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{1}{3}{0} }}{\cf2{}}	{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{1}{3}{1} }}{\cf2{	array}}{\cf11{[}}{\cf2{i}}{\cf11{].}}{\cf2{}}{\cf16{\b Delete\b0 }}{\cf2{}}{\cf11{();}}}\par\pard
+\cbpat1{{\cf10{{1}{3}{2} }}{\cf2{}}	{\cf16{\b system\b0 }}{\cf2{}}{\cf11{(}}{\cf2{}}{\cf3{"pause"}}{\cf2{}}{\cf11{);}}}\par\pard
+\cbpat1{{\cf10{{1}{3}{3} }}{\cf2{}}	{\cf13{\b return true\b0 }}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{1}{3}{4} }}{\cf2{}}{\cf11{\}}}{\cf2{}}}\par\pard
+\cbpat1{}}

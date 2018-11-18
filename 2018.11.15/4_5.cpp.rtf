@@ -1,0 +1,54 @@
+{\rtf1\ansi \deff1{\fonttbl{\f1\fmodern\fprq1\fcharset0 宋体;}}{\colortbl;\red09\green03\blue00;\red165\green162\blue162;\red01\green162\blue82;\red232\green187\blue208;\red92\green88\blue85;\red92\green88\blue85;\red181\green228\blue244;\red205\green171\blue83;\red181\green228\blue244;\red128\green125\blue124;\red165\green162\blue162;\red232\green187\blue208;\red161\green106\blue148;\red01\green160\blue228;\red219\green45\blue32;\red253\green237\blue02;}
+\paperw11905\paperh16837\margl1134\margr1134\margt1134\margb1134\sectd\plain\f1\fs20
+\pard \cbpat1{{\cf2{}}{\cf10{ {1} }}{\cf2{\u65279?}}{\cf8{#include<iostream>}}}\par\pard
+\cbpat1{{\cf10{ {2} }}{\cf2{}}{\cf8{#include<string>}}}\par\pard
+\cbpat1{{\cf10{ {3} }}{\cf2{}}{\cf13{\b using namespace\b0 }} {\cf2{std}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{ {4} }}{\cf2{}}{\cf15{\b class\b0 }} {\cf2{Person}}}\par\pard
+\cbpat1{{\cf10{ {5} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{ {6} }}{\cf2{}}{\cf15{\b private\b0 }}{\cf2{}}{\cf11{:}}}\par\pard
+\cbpat1{{\cf10{ {7} }}{\cf2{}}	{\cf14{\b int\b0 }} {\cf2{age}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{ {8} }}{\cf2{}}	{\cf14{\b char\b0 }} {\cf2{}}{\cf11{*}}{\cf2{name}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{ {9} }}{\cf2{}}{\cf15{\b public\b0 }}{\cf2{}}{\cf11{:}}}\par\pard
+\cbpat1{{\cf10{{1}{0} }}{\cf2{}}	{\cf16{\b Person\b0 }}{\cf2{}}{\cf11{(}}{\cf2{}}{\cf14{\b int\b0 }} {\cf2{n}} {\cf11{=}} {\cf2{}}{\cf4{{1}}}{\cf2{}}{\cf11{,}} {\cf2{}}{\cf14{\b char\b0 }} {\cf2{}}{\cf11{*}}{\cf2{na}} {\cf11{=}} {\cf2{}}{\cf3{"ZhuLi"}}{\cf2{}}{\cf11{);}}{\cf2{}}{\cf5{\i //\u26500?\u36896?\u20989?\u25968?\i0 }}}\par\pard
+\cbpat1{{\cf10{{1}{1} }}{\cf2{}}	{\cf11{~}}{\cf2{}}{\cf16{\b Person\b0 }}{\cf2{}}{\cf11{();}}}\par\pard
+\cbpat1{{\cf10{{1}{2} }}{\cf2{}}	{\cf14{\b void\b0 }} {\cf2{}}{\cf16{\b Print\b0 }}{\cf2{}}{\cf11{();}}{\cf2{}}{\cf5{\i //\u37325?\u36733?\u20989?\u25968?\u65292?\u29992?\u20110?\u36755?\u20986?\u26222?\u36890?\u25104?\u21592?\u20989?\u25968?\i0 }}}\par\pard
+\cbpat1{{\cf10{{1}{3} }}{\cf2{}}	{\cf14{\b void\b0 }} {\cf2{}}{\cf16{\b Print\b0 }}{\cf2{}}{\cf11{()}}{\cf2{}}{\cf14{\b const\b0 }}{\cf2{}}{\cf11{;}}{\cf2{}}{\cf5{\i //\u37325?\u36733?\u20989?\u25968?\u65292?\u29992?\u20110?\u36755?\u20986?\u24120?\u25104?\u21592?\u20989?\u25968?\u65292?const\u21442?\u19982?\u37325?\u36733?\i0 }}}\par\pard
+\cbpat1{{\cf10{{1}{4} }}{\cf2{}}	{\cf14{\b void\b0 }} {\cf2{}}{\cf16{\b ModifyAge\b0 }}{\cf2{}}{\cf11{();}}{\cf2{}}{\cf5{\i //\u29992?\u20110?\u20462?\u25913?\u24180?\u40836?\u30340?\u26222?\u36890?\u25104?\u21592?\u20989?\u25968?\i0 }}}\par\pard
+\cbpat1{{\cf10{{1}{5} }}{\cf2{}}{\cf11{\};}}}\par\pard
+\cbpat1{{\cf10{{1}{6} }}{\cf2{}}{\cf15{\b Person\b0 }}{\cf2{}}{\cf11{::}}{\cf2{}}{\cf16{\b Person\b0 }}{\cf2{}}{\cf11{(}}{\cf2{}}{\cf14{\b int\b0 }} {\cf2{n}}{\cf11{,}} {\cf2{}}{\cf14{\b char\b0 }} {\cf2{}}{\cf11{*}}{\cf2{na}}{\cf11{)}}{\cf2{}}{\cf5{\i //\u26500?\u36896?\u20989?\u25968?\u30340?\u23450?\u20041?\i0 }}}\par\pard
+\cbpat1{{\cf10{{1}{7} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{1}{8} }}{\cf2{	age}} {\cf11{=}} {\cf2{n}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{1}{9} }}{\cf2{	name}} {\cf11{=}} {\cf2{}}{\cf13{\b new\b0 }} {\cf2{}}{\cf14{\b char\b0 }}{\cf2{}}{\cf11{[}}{\cf2{}}{\cf16{\b strlen\b0 }}{\cf2{}}{\cf11{(}}{\cf2{na}}{\cf11{)+}}{\cf2{}}{\cf4{{1}}}{\cf2{}}{\cf11{];}}}\par\pard
+\cbpat1{{\cf10{{2}{0} }}{\cf2{}}	{\cf16{\b strcpy\b0 }}{\cf2{}}{\cf11{(}}{\cf2{name}}{\cf11{,}} {\cf2{na}}{\cf11{);}}}\par\pard
+\cbpat1{{\cf10{{2}{1} }}{\cf2{}}{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{2}{2} }}{\cf2{}}{\cf15{\b Person\b0 }}{\cf2{}}{\cf11{::~}}{\cf2{}}{\cf16{\b Person\b0 }}{\cf2{}}{\cf11{()}}{\cf2{}}{\cf5{\i //\u26512?\u26500?\u20989?\u25968?\u30340?\u23450?\u20041?\i0 }}}\par\pard
+\cbpat1{{\cf10{{2}{3} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{2}{4} }}{\cf2{}}	{\cf13{\b delete\b0 }}{\cf2{}}{\cf11{[]}}{\cf2{name}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{2}{5} }}{\cf2{}}{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{2}{6} }}{\cf2{}}{\cf14{\b void\b0 }} {\cf2{}}{\cf15{\b Person\b0 }}{\cf2{}}{\cf11{::}}{\cf2{}}{\cf16{\b Print\b0 }}{\cf2{}}{\cf11{()}}{\cf2{}}{\cf5{\i //\u26222?\u36890?\u25104?\u21592?\u20989?\u25968?Print\u65288?\u65289?\u30340?\u23450?\u20041?\i0 }}}\par\pard
+\cbpat1{{\cf10{{2}{7} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{2}{8} }}{\cf2{	cout}} {\cf11{<<}} {\cf2{}}{\cf3{"age:"}}{\cf2{}} {\cf11{<<}} {\cf2{age}} {\cf11{<<}} {\cf2{}}{\cf3{" name:"}}{\cf2{}} {\cf11{<<}} {\cf2{name}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{2}{9} }}{\cf2{	cout}} {\cf11{<<}} {\cf2{}}{\cf3{"This is general Print()."}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{3}{0} }}{\cf2{}}{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{3}{1} }}{\cf2{}}{\cf14{\b void\b0 }} {\cf2{}}{\cf15{\b Person\b0 }}{\cf2{}}{\cf11{::}}{\cf2{}}{\cf16{\b Print\b0 }}{\cf2{}}{\cf11{()}}{\cf2{}}{\cf14{\b const\b0 }}{\cf2{}}{\cf5{\i //\u24120?\u25104?\u21592?\u20989?\u25968?Print\u65288?\u65289?\u30340?\u23450?\u20041?cons\u19981?\u21487?\u30465?\u30053?\i0 }}}\par\pard
+\cbpat1{{\cf10{{3}{2} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{3}{3} }}{\cf2{	cout}} {\cf11{<<}} {\cf2{}}{\cf3{"age:"}}{\cf2{}} {\cf11{<<}} {\cf2{age}} {\cf11{<<}} {\cf2{}}{\cf3{" name:"}}{\cf2{}} {\cf11{<<}} {\cf2{name}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{3}{4} }}{\cf2{	cout}} {\cf11{<<}} {\cf2{}}{\cf3{"This is const Print()."}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{3}{5} }}{\cf2{}}{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{3}{6} }}{\cf2{}}{\cf14{\b void\b0 }} {\cf2{}}{\cf15{\b Person\b0 }}{\cf2{}}{\cf11{::}}{\cf2{}}{\cf16{\b ModifyAge\b0 }}{\cf2{}}{\cf11{()}}{\cf2{}}{\cf5{\i //\u29992?\u20110?\u20462?\u25913?\u24180?\u40836?\u30340?\u26222?\u36890?\u25104?\u21592?\u20989?\u25968?\i0 }}}\par\pard
+\cbpat1{{\cf10{{3}{7} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{3}{8} }}{\cf2{	age}}{\cf11{++;}}}\par\pard
+\cbpat1{{\cf10{{3}{9} }}{\cf2{}}{\cf11{\}}}}\par\pard
+\cbpat1{{\cf10{{4}{0} }}{\cf2{}}{\cf14{\b int\b0 }} {\cf2{}}{\cf16{\b main\b0 }}{\cf2{}}{\cf11{()}}}\par\pard
+\cbpat1{{\cf10{{4}{1} }}{\cf2{}}{\cf11{\{}}}\par\pard
+\cbpat1{{\cf10{{4}{2} }}{\cf2{}}	{\cf14{\b const\b0 }} {\cf2{Person}} {\cf16{\b p{1}\b0 }}{\cf2{}}{\cf11{(}}{\cf2{}}{\cf4{{1}{7}}}{\cf2{}}{\cf11{,}} {\cf2{}}{\cf3{"wu"}}{\cf2{}}{\cf11{);}}{\cf2{}}{\cf5{\i //\u23450?\u20041?\u24120?\u23545?\u35937?\u24517?\u39035?\u21021?\u22987?\u21270?\i0 }}}\par\pard
+\cbpat1{{\cf10{{4}{3} }}{\cf2{	cout}} {\cf11{<<}} {\cf2{}}{\cf3{"Output const object p{1}"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{4}{4} }}{\cf2{	p{1}}}{\cf11{.}}{\cf2{}}{\cf16{\b Print\b0 }}{\cf2{}}{\cf11{();}}{\cf2{}}{\cf5{\i //\u24120?\u23545?\u35937?\u35843?\u29992?\u24120?\u25104?\u21592?\u20989?\u25968?\i0 }}}\par\pard
+\cbpat1{{\cf10{{4}{5} }}{\cf2{	Person}} {\cf16{\b p{2}\b0 }}{\cf2{}}{\cf11{(}}{\cf2{}}{\cf4{{1}{8}}}{\cf2{}}{\cf11{,}} {\cf2{}}{\cf3{"zhang"}}{\cf2{}}{\cf11{);}}{\cf2{}}{\cf5{\i //\u23450?\u20041?\u26222?\u36890?\u30340?\u23545?\u35937?\i0 }}}\par\pard
+\cbpat1{{\cf10{{4}{6} }}{\cf2{	cout}} {\cf11{<<}} {\cf2{}}{\cf3{"Output general object p{2}"}}{\cf2{}} {\cf11{<<}} {\cf2{endl}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{4}{7} }}{\cf2{	p{2}}}{\cf11{.}}{\cf2{}}{\cf16{\b ModifyAge\b0 }}{\cf2{}}{\cf11{();}}{\cf2{}}{\cf5{\i //\u21487?\u20197?\u20462?\u25913?\u25968?\u25454?\u25104?\u21592?\i0 }}}\par\pard
+\cbpat1{{\cf10{{4}{8} }}{\cf2{	p{2}}}{\cf11{.}}{\cf2{}}{\cf16{\b Print\b0 }}{\cf2{}}{\cf11{();}}{\cf2{}}{\cf5{\i //\u26222?\u36890?\u23545?\u35937?\u35843?\u29992?\u26222?\u36890?\u30340?\u25104?\u21592?\u20989?\u25968?\i0 }}}\par\pard
+\cbpat1{{\cf10{{4}{9} }}{\cf2{}}	{\cf16{\b system\b0 }}{\cf2{}}{\cf11{(}}{\cf2{}}{\cf3{"pause"}}{\cf2{}}{\cf11{);}}}\par\pard
+\cbpat1{{\cf10{{5}{0} }}{\cf2{}}	{\cf13{\b return\b0 }} {\cf2{}}{\cf4{{0}}}{\cf2{}}{\cf11{;}}}\par\pard
+\cbpat1{{\cf10{{5}{1} }}{\cf2{}}{\cf11{\}}}{\cf2{}}}\par\pard
+\cbpat1{}}
